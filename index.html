@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App Portfolio | Takn Factory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .app-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <header class="bg-white border-b border-gray-200 py-10">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold tracking-tight text-gray-800">Takn Factory</h1>
+            <p class="mt-4 text-lg text-gray-600">Individual App Development Showcase</p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="app-card bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+                <div class="aspect-video bg-blue-100 flex items-center justify-center">
+                    <span class="text-blue-500 font-bold text-lg">App Preview</span>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">きんぎょ日和</h2>
+                    <p class="text-gray-600 text-sm mb-4">癒やしの金魚育成シミュレーション。App Storeにて配信中。</p>
+                    <div class="flex gap-2">
+                        <a href="./goldfish-days/" class="text-blue-600 font-medium hover:underline text-sm">View Details →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="app-card bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+                <div class="aspect-video bg-emerald-100 flex items-center justify-center">
+                    <span class="text-emerald-500 font-bold text-lg">Comming Soon</span>
+                </div>
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Comming Soon</h2>
+                    <p class="text-gray-600 text-sm mb-4">Comming Soon</p>
+                    <div class="flex gap-2">
+                        <!-- <a href="./tropical-fish/" class="text-emerald-600 font-medium hover:underline text-sm">Coming Soon →</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="app-card bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+                <div class="aspect-video bg-gray-100 flex items-center justify-center text-gray-400">
+                    <span class
